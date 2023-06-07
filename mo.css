@@ -1,0 +1,32 @@
+/* Example CSS styles */
+
+/* Set the overall app layout */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Create a container for the movie images */
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Style individual movie images */
+.movie-image {
+  width: 200px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+h2{
+  color: red;
+}
+body{
+  background-color: white;
+}
